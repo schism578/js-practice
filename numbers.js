@@ -26,3 +26,13 @@ function fahrToCels(fahrTemp) {
     return (fahrTemp - 32) * 5 / 9;
 }
 console.log(fahrToCels(78));
+
+function isDivisible(dividend, divisor) {
+    if(dividend % divisor === 0) {
+        return true;
+    } else {
+        return false;
+    }
+  }
+console.log(isDivisible(9, 3));
+console.log(isDivisible(98, 13));
